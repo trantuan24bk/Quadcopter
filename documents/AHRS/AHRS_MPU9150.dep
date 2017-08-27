@@ -1,0 +1,50 @@
+Dependencies for Project 'AHRS', Target 'MPU9150': (DO NOT MODIFY !)
+F (.\Startup\startup_rvmdk.S)(0x538455BD)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I e:\Keil\ARM\RV31\INC-I e:\Keil\ARM\CMSIS\Include-I e:\Keil\ARM\Inc\TI\TM4C123-o .\out\startup_rvmdk.o --depend .\out\startup_rvmdk.d)
+F (.\User\main.c)(0x538455D6)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -IC:\ti\TivaWare_C_Series-2.1.0.12573 -I.\Std -I.\User -IC:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib -IC:\ti\TivaWare_C_Series-2.1.0.12573\utils -IC:\ti\TivaWare_C_Series-2.1.0.12573\examples\boards\ek-tm4c123gxl-boostxl-senshub -IC:\ti\TivaWare_C_Series-2.1.0.12573\examples\boards\ek-tm4c123gxl-boostxl-senshub\drivers --c99-I e:\Keil\ARM\RV31\INC-I e:\Keil\ARM\CMSIS\Include-I e:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED -DTM4C123GH6PM-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+I (D:\Dropbox\MY DOCUMENT\KeilC\TIVA\AHRS\Std\include.h)(0x5391A8DB)
+I (e:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C88A34)
+I (e:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x534B9D34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x534B9D34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_gpio.h)(0x534B9D34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\timer.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\adc.h)(0x534B9CFA)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\i2c.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x534B9D34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\uart.h)(0x534B9CFB)
+I (e:\Keil\ARM\ARMCC\include\math.h)(0x51C88A34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\qei.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\utils\uartstdio.h)(0x534B9D42)
+I (e:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C88A34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib\hw_mpu9150.h)(0x534B9D36)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib\hw_ak8975.h)(0x534B9D36)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib\i2cm_drv.h)(0x534B9D36)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib\ak8975.h)(0x534B9D36)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib\mpu9150.h)(0x534B9D36)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib\comp_dcm.h)(0x534B9D36)
+I (D:\Dropbox\MY DOCUMENT\KeilC\TIVA\AHRS\User\MPU9150.H)(0x538440C6)
+F (.\User\MPU9150.C)(0x53843D6E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -IC:\ti\TivaWare_C_Series-2.1.0.12573 -I.\Std -I.\User -IC:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib -IC:\ti\TivaWare_C_Series-2.1.0.12573\utils -IC:\ti\TivaWare_C_Series-2.1.0.12573\examples\boards\ek-tm4c123gxl-boostxl-senshub -IC:\ti\TivaWare_C_Series-2.1.0.12573\examples\boards\ek-tm4c123gxl-boostxl-senshub\drivers --c99-I e:\Keil\ARM\RV31\INC-I e:\Keil\ARM\CMSIS\Include-I e:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED -DTM4C123GH6PM-o .\out\mpu9150.o --omf_browse .\out\mpu9150.crf --depend .\out\mpu9150.d)
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\utils\uartstdio.c)(0x53719DD5)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -IC:\ti\TivaWare_C_Series-2.1.0.12573 -I.\Std -I.\User -IC:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib -IC:\ti\TivaWare_C_Series-2.1.0.12573\utils -IC:\ti\TivaWare_C_Series-2.1.0.12573\examples\boards\ek-tm4c123gxl-boostxl-senshub -IC:\ti\TivaWare_C_Series-2.1.0.12573\examples\boards\ek-tm4c123gxl-boostxl-senshub\drivers --c99-I e:\Keil\ARM\RV31\INC-I e:\Keil\ARM\CMSIS\Include-I e:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED -DTM4C123GH6PM-o .\out\uartstdio.o --omf_browse .\out\uartstdio.crf --depend .\out\uartstdio.d)
+I (e:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C88A34)
+I (e:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (e:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C88A34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x534B9D34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x534B9D34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x534B9D34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_uart.h)(0x534B9D34)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x534B9CFA)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\uart.h)(0x534B9CFB)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\utils\uartstdio.h)(0x534B9D42)
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rvmdk\driverlib.lib)(0x535DAA09)()
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib\rvmdk\sensorlib.lib)(0x534B9D36)()
+F (.\Std\include.h)(0x5391A8DB)()
+F (.\User\MPU9150.H)(0x538440C6)()

@@ -1,0 +1,226 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Dropbox\MY DOCUMENT\KeilC\TIVA\AHRS\AHRS.uvproj
+Project File Date:  06/21/2014
+
+<h2>Output:</h2>
+Build target 'AHRS'
+compiling main.c...
+.\User\AHRS_2010.H(26): warning:  #1-D: last line of file ends without a newline
+.\User\QuatoE.h(5): warning:  #1-D: last line of file ends without a newline
+.\User\MadgwickAHRS.H(20): error:  #147: declaration is incompatible with "float q0" (declared at line 16 of ".\User\AHRS_2010.H")
+.\User\MadgwickAHRS.H(20): error:  #147: declaration is incompatible with "float q1" (declared at line 16 of ".\User\AHRS_2010.H")
+.\User\MadgwickAHRS.H(20): error:  #147: declaration is incompatible with "float q2" (declared at line 16 of ".\User\AHRS_2010.H")
+.\User\MadgwickAHRS.H(20): error:  #147: declaration is incompatible with "float q3" (declared at line 16 of ".\User\AHRS_2010.H")
+User\main.c(36): error:  #147: declaration is incompatible with "volatile float q0" (declared at line 20 of ".\User\MadgwickAHRS.H")
+User\main.c(36): error:  #147: declaration is incompatible with "volatile float q1" (declared at line 20 of ".\User\MadgwickAHRS.H")
+User\main.c(36): error:  #147: declaration is incompatible with "volatile float q2" (declared at line 20 of ".\User\MadgwickAHRS.H")
+User\main.c(36): error:  #147: declaration is incompatible with "volatile float q3" (declared at line 20 of ".\User\MadgwickAHRS.H")
+User\main.c(200): warning:  #550-D: variable "ui32CompDCMStarted" was set but never used
+User\main.c(202): warning:  #550-D: variable "pfEulers" was set but never used
+User\main.c(323): warning:  #177-D: variable "p" was declared but never referenced
+User\main.c(324): warning:  #177-D: variable "i" was declared but never referenced
+compiling QuatoE.c...
+User\QuatoE.c(16): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\QuatoE.c(53): warning:  #1-D: last line of file ends without a newline
+User\QuatoE.c(35): warning:  #550-D: parameter "q3" was set but never used
+compiling MadgwickAHRS.c...
+".\Out\TEST.axf" - 8 Errors, 9 Warning(s).
+Target not created
+Build target 'AHRS'
+compiling main.c...
+.\User\AHRS_2010.H(26): warning:  #1-D: last line of file ends without a newline
+.\User\QuatoE.h(5): warning:  #1-D: last line of file ends without a newline
+.\User\MadgwickAHRS.H(20): error:  #147: declaration is incompatible with "float q0" (declared at line 16 of ".\User\AHRS_2010.H")
+.\User\MadgwickAHRS.H(20): error:  #147: declaration is incompatible with "float q1" (declared at line 16 of ".\User\AHRS_2010.H")
+.\User\MadgwickAHRS.H(20): error:  #147: declaration is incompatible with "float q2" (declared at line 16 of ".\User\AHRS_2010.H")
+.\User\MadgwickAHRS.H(20): error:  #147: declaration is incompatible with "float q3" (declared at line 16 of ".\User\AHRS_2010.H")
+User\main.c(200): warning:  #550-D: variable "ui32CompDCMStarted" was set but never used
+User\main.c(202): warning:  #550-D: variable "pfEulers" was set but never used
+User\main.c(323): warning:  #177-D: variable "p" was declared but never referenced
+User\main.c(324): warning:  #177-D: variable "i" was declared but never referenced
+compiling QuatoE.c...
+User\QuatoE.c(16): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\QuatoE.c(53): warning:  #1-D: last line of file ends without a newline
+compiling MadgwickAHRS.c...
+".\Out\TEST.axf" - 4 Errors, 8 Warning(s).
+Target not created
+Build target 'AHRS'
+compiling main.c...
+.\User\AHRS_2010.H(26): warning:  #1-D: last line of file ends without a newline
+.\User\QuatoE.h(5): warning:  #1-D: last line of file ends without a newline
+User\main.c(200): warning:  #550-D: variable "ui32CompDCMStarted" was set but never used
+User\main.c(202): warning:  #550-D: variable "pfEulers" was set but never used
+User\main.c(323): warning:  #177-D: variable "p" was declared but never referenced
+User\main.c(324): warning:  #177-D: variable "i" was declared but never referenced
+compiling AHRS_2010.c...
+User\AHRS_2010.h(26): warning:  #1-D: last line of file ends without a newline
+User\AHRS_2010.c(76): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(77): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(78): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(86): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(88): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+linking...
+.\Out\TEST.axf: Error: L6200E: Symbol q0 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q1 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q2 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q3 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+".\Out\TEST.axf" - 4 Errors, 12 Warning(s).
+Target not created
+Build target 'AHRS'
+compiling main.c...
+.\User\AHRS_2010.H(26): warning:  #1-D: last line of file ends without a newline
+.\User\QuatoE.h(5): warning:  #1-D: last line of file ends without a newline
+User\main.c(200): warning:  #550-D: variable "ui32CompDCMStarted" was set but never used
+User\main.c(202): warning:  #550-D: variable "pfEulers" was set but never used
+User\main.c(323): warning:  #177-D: variable "p" was declared but never referenced
+User\main.c(324): warning:  #177-D: variable "i" was declared but never referenced
+compiling MadgwickAHRS.c...
+linking...
+.\Out\TEST.axf: Error: L6200E: Symbol q0 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q0 multiply defined (by madgwickahrs.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q1 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q1 multiply defined (by madgwickahrs.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q2 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q2 multiply defined (by madgwickahrs.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q3 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q3 multiply defined (by madgwickahrs.o and main.o).
+".\Out\TEST.axf" - 8 Errors, 6 Warning(s).
+Target not created
+Build target 'AHRS'
+linking...
+.\Out\TEST.axf: Error: L6200E: Symbol q0 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q0 multiply defined (by madgwickahrs.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q1 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q1 multiply defined (by madgwickahrs.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q2 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q2 multiply defined (by madgwickahrs.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q3 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q3 multiply defined (by madgwickahrs.o and main.o).
+".\Out\TEST.axf" - 8 Errors, 0 Warning(s).
+Target not created
+Build target 'AHRS'
+compiling main.c...
+.\User\AHRS_2010.H(26): warning:  #1-D: last line of file ends without a newline
+.\User\QuatoE.h(5): warning:  #1-D: last line of file ends without a newline
+User\main.c(200): warning:  #550-D: variable "ui32CompDCMStarted" was set but never used
+User\main.c(202): warning:  #550-D: variable "pfEulers" was set but never used
+User\main.c(323): warning:  #177-D: variable "p" was declared but never referenced
+User\main.c(324): warning:  #177-D: variable "i" was declared but never referenced
+compiling MadgwickAHRS.c...
+linking...
+.\Out\TEST.axf: Error: L6200E: Symbol q0 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q0 multiply defined (by madgwickahrs.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q1 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q1 multiply defined (by madgwickahrs.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q2 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q2 multiply defined (by madgwickahrs.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q3 multiply defined (by ahrs_2010.o and main.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q3 multiply defined (by madgwickahrs.o and main.o).
+".\Out\TEST.axf" - 8 Errors, 6 Warning(s).
+Target not created
+Build target 'AHRS'
+compiling MadgwickAHRS.c...
+User\MadgwickAHRS.c(58): error:  #20: identifier "q1" is undefined
+User\MadgwickAHRS.c(58): error:  #20: identifier "q2" is undefined
+User\MadgwickAHRS.c(58): error:  #20: identifier "q3" is undefined
+User\MadgwickAHRS.c(59): error:  #20: identifier "q0" is undefined
+User\MadgwickAHRS.c(150): error:  #20: identifier "q1" is undefined
+User\MadgwickAHRS.c(150): error:  #20: identifier "q2" is undefined
+User\MadgwickAHRS.c(150): error:  #20: identifier "q3" is undefined
+User\MadgwickAHRS.c(151): error:  #20: identifier "q0" is undefined
+".\Out\TEST.axf" - 8 Errors, 0 Warning(s).
+Target not created
+Build target 'AHRS'
+compiling main.c...
+.\User\AHRS_2010.H(26): warning:  #1-D: last line of file ends without a newline
+.\User\QuatoE.h(5): warning:  #1-D: last line of file ends without a newline
+User\main.c(200): warning:  #550-D: variable "ui32CompDCMStarted" was set but never used
+User\main.c(202): warning:  #550-D: variable "pfEulers" was set but never used
+User\main.c(323): warning:  #177-D: variable "p" was declared but never referenced
+User\main.c(324): warning:  #177-D: variable "i" was declared but never referenced
+compiling MadgwickAHRS.c...
+linking...
+.\Out\TEST.axf: Error: L6200E: Symbol q0 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q1 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q2 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q3 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+".\Out\TEST.axf" - 4 Errors, 6 Warning(s).
+Target not created
+Build target 'AHRS'
+compiling AHRS_2010.c...
+User\AHRS_2010.h(26): warning:  #1-D: last line of file ends without a newline
+User\AHRS_2010.c(76): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(77): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(78): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(86): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(88): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+linking...
+.\Out\TEST.axf: Error: L6200E: Symbol q0 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q1 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q2 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+.\Out\TEST.axf: Error: L6200E: Symbol q3 multiply defined (by madgwickahrs.o and ahrs_2010.o).
+".\Out\TEST.axf" - 4 Errors, 6 Warning(s).
+Target not created
+Build target 'AHRS'
+compiling main.c...
+.\User\AHRS_2010.H(26): warning:  #1-D: last line of file ends without a newline
+.\User\QuatoE.h(5): warning:  #1-D: last line of file ends without a newline
+User\main.c(200): warning:  #550-D: variable "ui32CompDCMStarted" was set but never used
+User\main.c(202): warning:  #550-D: variable "pfEulers" was set but never used
+User\main.c(323): warning:  #177-D: variable "p" was declared but never referenced
+User\main.c(324): warning:  #177-D: variable "i" was declared but never referenced
+compiling AHRS_2010.c...
+User\AHRS_2010.h(26): warning:  #1-D: last line of file ends without a newline
+User\AHRS_2010.c(54): error:  #20: identifier "q0" is undefined
+User\AHRS_2010.c(55): error:  #20: identifier "q1" is undefined
+User\AHRS_2010.c(56): error:  #20: identifier "q2" is undefined
+User\AHRS_2010.c(57): error:  #20: identifier "q3" is undefined
+User\AHRS_2010.c(76): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(77): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(78): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(86): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(88): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+".\Out\TEST.axf" - 4 Errors, 12 Warning(s).
+Target not created
+Build target 'AHRS'
+compiling AHRS_2010.c...
+User\AHRS_2010.h(26): warning:  #1-D: last line of file ends without a newline
+User\AHRS_2010.c(76): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(77): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(78): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(86): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(88): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(106): error:  #20: identifier "q0" is undefined
+User\AHRS_2010.c(106): error:  #20: identifier "q1" is undefined
+User\AHRS_2010.c(106): error:  #20: identifier "q2" is undefined
+User\AHRS_2010.c(106): error:  #20: identifier "q3" is undefined
+".\Out\TEST.axf" - 4 Errors, 6 Warning(s).
+Target not created
+Build target 'AHRS'
+compiling AHRS_2010.c...
+User\AHRS_2010.h(26): warning:  #1-D: last line of file ends without a newline
+User\AHRS_2010.c(76): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(77): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(78): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(86): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+User\AHRS_2010.c(88): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+linking...
+Program Size: Code=6752 RO-data=988 RW-data=1644 ZI-data=1004  
+FromELF: creating hex file...
+".\Out\TEST.axf" - 0 Errors, 6 Warning(s).
+Build target 'AHRS'
+compiling main.c...
+.\User\AHRS_2010.H(26): warning:  #1-D: last line of file ends without a newline
+.\User\QuatoE.h(5): warning:  #1-D: last line of file ends without a newline
+User\main.c(201): warning:  #550-D: variable "ui32CompDCMStarted" was set but never used
+User\main.c(203): warning:  #550-D: variable "pfEulers" was set but never used
+User\main.c(324): warning:  #177-D: variable "p" was declared but never referenced
+User\main.c(325): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=6752 RO-data=988 RW-data=1644 ZI-data=1004  
+FromELF: creating hex file...
+".\Out\TEST.axf" - 0 Errors, 6 Warning(s).

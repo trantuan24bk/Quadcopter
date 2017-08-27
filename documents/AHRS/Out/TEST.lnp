@@ -1,0 +1,14 @@
+--cpu Cortex-M4.fp
+".\out\startup_rvmdk.o"
+".\out\main.o"
+".\out\mpu9150.o"
+".\out\uartstdio.o"
+".\out\ahrs_2010.o"
+".\out\quatoe.o"
+".\out\madgwickahrs.o"
+"C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rvmdk\driverlib.lib"
+"C:\ti\TivaWare_C_Series-2.1.0.12573\sensorlib\rvmdk\sensorlib.lib"
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Lst\TEST.map" -o .\Out\TEST.axf
